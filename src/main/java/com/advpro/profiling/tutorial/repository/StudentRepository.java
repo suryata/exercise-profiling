@@ -12,6 +12,6 @@ import java.util.Optional;
  */
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long> {
-    @Query("SELECT s FROM Student s WHERE s.gpa = (SELECT MAX(s2.gpa) FROM Student s2)")
+    @Query(value = "SELECT * FROM students ORDER BY gpa DESC LIMIT 1", nativeQuery = true)
     Optional<Student> findTopByOrderByGpaDesc();
 }
