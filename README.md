@@ -47,6 +47,8 @@ Before Optimization:
 After Optimization:
 ![Our Features](https://cdn.discordapp.com/attachments/1037716635227799613/1217274197181468732/image.png?ex=66036df0&is=65f0f8f0&hm=bea99c47ed573851897c7c67693dbd64595dd4c7ae22eb504e46d1754c6301d6&)
 
+Optimisasi ini berhasil mengurangi waktu eksekusi sebesar sekitar 93.67%.
+
 ### Endpoint /all-student-name
 Test Result:
 ![Our Features](https://cdn.discordapp.com/attachments/1037716635227799613/1217274399976198164/image.png?ex=66036e20&is=65f0f920&hm=1e920684cb529e6f186a4637a22d91409980e26bc0462a1f9d55efd29b5b306b&)
@@ -57,6 +59,8 @@ Before Optimization:
 After Optimization:
 ![Our Features](https://cdn.discordapp.com/attachments/1037716635227799613/1217274987891654766/image.png?ex=66036eac&is=65f0f9ac&hm=e063788c87f1641503895e7dfde22946f54c37d020be351c967518ce1b5f6159&)
 
+Optimisasi ini berhasil mengurangi waktu eksekusi sebesar sekitar 93.33%.
+
 ### Endpoint /highest-gpa
 Test Result:
 ![Our Features](https://cdn.discordapp.com/attachments/1037716635227799613/1217274685193195642/image.png?ex=66036e64&is=65f0f964&hm=676fb3051112f99be7d6ccebcff0c3229dc915cc1fd1f45899fe5d0f5ec00951&)
@@ -66,3 +70,8 @@ Before Optimization:
 
 After Optimization:
 ![Our Features](https://cdn.discordapp.com/attachments/1037716635227799613/1217275036877197333/image.png?ex=66036eb8&is=65f0f9b8&hm=981134f0fdf4df6ab2535bfc783b165c5cd46f27a304f75a6b6151b3f98946e6&)
+
+Optimisasi ini berhasil mengurangi waktu eksekusi sebesar sekitar 90.91%.
+
+Kesimpulan:
+Berdasarkan gambar, tampak adanya peningkatan performa yang ditandai dengan pengurangan waktu sample yang didapatkan. Waktu yang dibutuhkan untuk eksekusi sebelum dilakukan optimisasi ternyata lebih panjang jika dibandingkan dengan setelah proses optimisasi. Kesimpulan yang bisa saya tarik adalah bahwa upaya optimisasi yang saya lakukan terbukti efektif, dengan dukungan dari alat JMeter dan IntelliJ Profiler.
